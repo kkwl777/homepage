@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #386dfd;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  border: 1px solid #000000;
+  border-radius: 0.5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  margin: 1em;
+}
+.card figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem;
+  height: 100%;
+  max-width: 400px;
+}
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
