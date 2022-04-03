@@ -81,7 +81,7 @@ function App() {
 
         <h1 class="text-3xl font-bold text-gray-400">Software Engineer</h1>
         <h1 class="text-1xl font-bold justify-self-end text-blue-500" >
-  University of Toronto H.BSc
+  University of Toronto H.BSc 2022
         </h1> 
         <p> </p>
 
