@@ -51,11 +51,16 @@
   padding: 0rem;
   height: 100%;
   max-width: 400px;
+  min-width: 400px;
+}
+.card image {
+  height: 100%;
+  max-width: 100%;
 }
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: #ffffff;
   border-color: #0070f3;
 }
 
