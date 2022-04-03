@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import SwiperCore, { Autoplay } from 'swiper';
+import SwiperCore, { Autoplay,EffectFade  } from 'swiper';
 import styles from './extra.css'
 import f1 from './f1.png' 
 import f2 from './f2.png' 
@@ -30,10 +30,8 @@ import game2 from './game2.png'
 
 import g1 from './g1.png' 
 
-
 function App() {
   SwiperCore.use([Autoplay])
-
   return (
     <div className="App">
 
@@ -42,6 +40,8 @@ function App() {
   <div style={{width:'42%'}}> 
   <Swiper
       autoplay={{ delay: 20000 }} 
+      
+     
       spaceBetween={50}
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
@@ -152,7 +152,7 @@ function App() {
   Tailwind
 </div>
 <div class="badge badge-warning gap-2 bg-white">
-  Solana-cli
+  Solana
 </div>
 <div class="badge badge-warning gap-2 bg-gray-400">
   Arweave
