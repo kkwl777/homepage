@@ -103,22 +103,20 @@ function App() {
   <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">AggrView</a>       2021 - Present
         </h1>   
         
-        <p>Trading dashboard aggregating V3.Aggr and TradingView for discretionary trading. Notes stored to localStorage via React hooks. Aggr script available on request. </p>
+        <p>Dashboard combining V3.Aggr and Tradingview widgets for discretionary trading. Notes stored to localStorage via React hooks. Aggr script available on request. </p>
 
 <div class='flex flex-row gap-2 '>
 <div class="badge badge-info gap-2">
   React
 </div>
-<div class="badge badge-success gap-2 bg-green-400">
-  Tailwind
-</div>
-<div class="badge badge-warning gap-2 bg-purple-400">
+
+<div class="badge badge-warning gap-2 bg-purple-500 text-white">
   DaisyUI
 </div>
 <div class="badge badge-error gap-2 bg-white">
   Vercel
 </div>
-<div class="badge badge-error gap-2 ">
+<div class="badge badge-error gap-2 bg-red-500 text-white ">
   Web3
 </div>
 
@@ -138,9 +136,9 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Metaplex Candy Machines</a>      2021 - Present 
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Metaplex CM</a>      2021 - Present 
         </h1>   
-        <p>I help companies create generative art collections & responsive mint sites compatible with Phantom using Typescript, TailwindCSS, Arweave/IPFS, Metaplex and Solana-cli.</p>
+        <p>Generative art collections & responsive mint sites compatible with Phantom using Typescript, TailwindCSS, Arweave/IPFS, Metaplex and Solana-cli.</p>
 <div class='flex flex-row gap-2 '>
 <div class="badge badge-info gap-2">
   React
@@ -151,13 +149,8 @@ function App() {
 <div class="badge badge-success gap-2 bg-green-400">
   Tailwind
 </div>
-<div class="badge badge-warning gap-2 bg-white">
-  Solana
-</div>
-<div class="badge badge-warning gap-2 bg-gray-400">
-  Arweave
-</div>
-<div class="badge badge-error gap-2 ">
+
+<div class="badge badge-error gap-2 bg-red-500 text-white ">
   Web3
 </div>
   </div>
@@ -275,16 +268,16 @@ function App() {
 <div class="badge badge-info gap-2 bg-blue-500">
   Solidity
 </div>
-<div class="badge badge-error gap-2 bg-white">
-  Express
-</div>
+
 <div class="badge badge-success gap-2">
   NodeJS
 </div>
 <div class="badge badge-warning gap-2">
   MongoDB
 </div>
-
+<div class="badge badge-error gap-2 bg-red-500 text-white ">
+  Web3
+</div>
   </div>
   </div>
 
@@ -304,7 +297,7 @@ function App() {
   <h1 class="text-1xl font-bold">
   <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Freelance Websites</a>      2018-Present 
         </h1>   
-        <p>Fast and responsive websites for local businesses at affordable prices. Built to specification from scratch or via Shopify.</p>
+        <p>Websites for local businesses at affordable prices. Built to specification from scratch or via Shopify.</p>
         <div class='flex flex-row gap-2 '>
 <div class="badge badge-info gap-2">
   React
@@ -312,9 +305,7 @@ function App() {
 <div class="badge badge-success gap-2 bg-green-400">
   Tailwind
 </div>
-<div class="badge badge-warning gap-2 bg-red-200">
-  Bootstrap/MUI/Daisy
-</div>
+
 <div class="badge badge-error gap-2 bg-white">
   Vercel
 </div>
@@ -349,9 +340,7 @@ function App() {
   HTML/CSS/JS
 </div>
 
-<div class="badge badge-error gap-2 bg-white">
-  Express
-</div>
+
 <div class="badge badge-error gap-2 bg-white">
   SQL
 </div><div class="badge badge-warning gap-2">
