@@ -36,6 +36,7 @@ function App() {
     <div className="App">
 
 
+
 <div class="flex flex-col w-full  absolute lg:flex-row" style={{height:'100%'}}>
   <div style={{width:'42%'}}> 
   <Swiper
@@ -61,7 +62,7 @@ function App() {
 
     </Swiper> 
     </div>
-  <div class="h-screen "style={{width:'58%',   overflow:'auto'}}>  
+  <div class="w-full  h-screen "style={{   overflow:'auto'}}>  
   
 
         {/* Main port; right side */}
@@ -105,7 +106,7 @@ function App() {
         
         <p>Dashboard combining V3.Aggr and Tradingview widgets for discretionary trading. Notes stored to localStorage via React hooks. Aggr script available on request. </p>
 
-<div class='flex flex-row gap-2 '>
+<div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
 <div class="badge badge-info gap-2">
   React
 </div>
@@ -139,8 +140,8 @@ function App() {
   <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Metaplex CM</a>      2021 - Present 
         </h1>   
         <p>Generative art collections & responsive mint sites compatible with Phantom using Typescript, TailwindCSS, Arweave/IPFS, Metaplex and Solana-cli.</p>
-<div class='flex flex-row gap-2 '>
-<div class="badge badge-info gap-2">
+        <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
+ <div class="badge badge-info gap-2" >
   React
 </div>
 <div class="badge badge-success gap-2 bg-yellow-200">
@@ -169,7 +170,7 @@ function App() {
         
         <p>Betterworth utilizes DISC personality tests to improve financial advisory relationships. I built out their MERN stack app & api using React, MaterialUI, Node, and AWS   </p>
 
-        <div class='flex flex-row gap-2 '>
+        <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
 <div class="badge badge-info gap-2">
   React
 </div>
@@ -222,7 +223,7 @@ function App() {
         
         <p>A no-code, AI-powered speech analytics platform to empower your in-house or off-site customer support & service teams. I helped build their web app, api and end-to-end encryption in React and NodeJS </p>
 
-<div class='flex flex-row gap-2 '>
+        <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
 <div class="badge badge-info gap-2">
   React
 </div>
@@ -264,7 +265,7 @@ function App() {
         
         <p>Facilitating the mainstream adoption of blockchain technology with a product-oriented approach. I worked on their API and Solidity smart contracts.</p>
 
-        <div class='flex flex-row gap-2 '>
+        <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
 <div class="badge badge-info gap-2 bg-blue-500">
   Solidity
 </div>
@@ -298,7 +299,7 @@ function App() {
   <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Freelance Websites</a>      2018-Present 
         </h1>   
         <p>Websites for local businesses at affordable prices. Built to specification from scratch or via Shopify.</p>
-        <div class='flex flex-row gap-2 '>
+        <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
 <div class="badge badge-info gap-2">
   React
 </div>
@@ -334,7 +335,7 @@ function App() {
          <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">2D Battle Royale </a>
        2017  </h1>   
         <p>2D Online Multiplayer shooter built with Vanilla HTML/CSS/JS. Fullstack app including user APIs and MongoDB.   </p>
-<div class='flex flex-row gap-2 '>
+        <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
 
 <div class="badge badge-success gap-2 bg-white">
   HTML/CSS/JS
@@ -348,7 +349,7 @@ function App() {
 </div>
   </div>
   </div>
-  <figure><img src={game1} alt="Games"/></figure>
+  <figure ><img src={game1} alt="Games"/></figure>
 </div>
 {/* ///////////////// */}
 
@@ -361,7 +362,7 @@ function App() {
          <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Flash Game Collection </a>
        2016  </h1>   
         <p>Various flash game projects coded in Python,JS,Java etc. for learning purposes.   </p>
-        <div class='flex flex-row gap-2 '>
+        <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
 
 <div class="badge badge-success gap-2 bg-white">
   HTML/CSS/JS
