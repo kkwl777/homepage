@@ -84,7 +84,7 @@ function App() {
         </h1> 
         <p> </p>
 
-        <p>Software Engineer with 4+ years of experience. I specialize in building web apps using React front-ends and NodeJS back-ends. I also work with Python and Solidity.</p>
+        <p>Software Engineer with 4+ years of experience. I specialize in building web apps using React (Javascript/Typescript) front-ends and NodeJS back-ends. I also work with Python and Solidity.</p>
 
 <p> </p>
 <p>I work remotely with teams to build modern and reliable solutions to complex problems – helping global companies, start-ups and web agencies reach business goals with technology, on-budget, on-time. I am currently in Toronto, Canada.</p>
