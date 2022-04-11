@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import SwiperCore, { Autoplay,EffectFade  } from 'swiper';
-import styles from './extra.css'
+import SwiperCore, { Autoplay,  } from 'swiper';
 import f1 from './f1.png' 
 import f2 from './f2.png' 
 import f3 from './f3.png' 
@@ -101,7 +99,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">AggrView</a>       2021 - Present
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="https://aggrview.vercel.app/">AggrView</a>       2021 - Present
         </h1>   
         
         <p>Dashboard combining V3.Aggr and Tradingview widgets for discretionary trading. Notes stored to localStorage via React hooks. Aggr script available on request. </p>
@@ -126,7 +124,7 @@ function App() {
   </div>
 
 
-  <figure><img src={dash} alt="Preview"/></figure>
+  <figure ><a  href="https://aggrview.vercel.app/"   >  <img   src={dash} alt="Preview"/> </a></figure> 
 
 </div>
 
@@ -137,7 +135,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Metaplex CM</a>      2021 - Present 
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" >Metaplex CM</a>      2021 - Present 
         </h1>   
         <p>Generative art collections & responsive mint sites compatible with Phantom using Typescript, TailwindCSS, Arweave/IPFS, Metaplex and Solana-cli.</p>
         <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
@@ -165,7 +163,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">BetterWorth</a> 2020-2021
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white"  href="https://betterworth.com/">BetterWorth</a> 2020-2021
         </h1>   
         
         <p>Betterworth utilizes DISC personality tests to improve financial advisory relationships. I built out their MERN stack app & api using React, MaterialUI, Node, and AWS   </p>
@@ -188,7 +186,7 @@ function App() {
   </div>
 
 
-  <figure><img src={bw2} alt="BetterWorth"/></figure>
+  <figure> <a  href="https://betterworth.com/" >  <img src={bw2} alt="BetterWorth"/> </a></figure>
 
 </div>
 
@@ -201,9 +199,9 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">UI Redesign</a>    2021 
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" >UI Redesign</a>    2021 
         </h1>   
-        <p>Helped redesign one of the university's department pages. Conducted contextual inquiry and focus group studies to identify issues. Produced wireframes and demos along with user models.  </p>
+        <p>Helped redesign a UofT department page. Conducted contextual inquiry and focus group studies to identify issues. Produced wireframes and demos along with user models.  </p>
         <div class="badge badge-success gap-2 bg-pink-400 text-white">
   UI/UX Design
 </div>
@@ -218,7 +216,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Summatti</a>  2019-2020
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="https://summatti.com/">Summatti</a>  2019-2020
         </h1>   
         
         <p>A no-code, AI-powered speech analytics platform to empower your in-house or off-site customer support & service teams. I helped build their web app, api and end-to-end encryption in React and NodeJS </p>
@@ -242,7 +240,7 @@ function App() {
   </div>
 
 
-  <figure><img src={sum2} alt="summatti"/></figure>
+  <figure> <a  href="https://summatti.com/" > <img src={sum2} alt="summatti"/> </a>   </figure>
 
 </div>
 
@@ -260,7 +258,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Demystify</a> 2019 
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="https://demystifycrypto.co/">Demystify</a> 2019 
         </h1>   
         
         <p>Facilitating the mainstream adoption of blockchain technology with a product-oriented approach. I worked on their API and Solidity smart contracts.</p>
@@ -283,7 +281,7 @@ function App() {
   </div>
 
 
-  <figure><img src={demys1} alt="demys1"/></figure>
+  <figure><a href="https://demystifycrypto.co/"> <img src={demys1} alt="demys1"/> </a></figure>
 
 </div>
 
@@ -296,7 +294,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Freelance Websites</a>      2018-Present 
+  <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" >Freelance Websites</a>      2018-Present 
         </h1>   
         <p>Websites for local businesses at affordable prices. Built to specification from scratch or via Shopify.</p>
         <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
@@ -332,7 +330,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-         <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">2D Battle Royale </a>
+         <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="https://github.com/kkwl777/js-shooter">2D Battle Royale </a>
        2017  </h1>   
         <p>2D Online Multiplayer shooter built with Vanilla HTML/CSS/JS. Fullstack app including user APIs and MongoDB.   </p>
         <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
@@ -349,7 +347,7 @@ function App() {
 </div>
   </div>
   </div>
-  <figure ><img src={game1} alt="Games"/></figure>
+  <figure > <a href="https://github.com/kkwl777/js-shooter" >  <img src={game1} alt="Games"/>  </a> </figure>
 </div>
 {/* ///////////////// */}
 
@@ -359,7 +357,7 @@ function App() {
 <div class="card lg:card-side bg-base-0 ">
   <div class="card-body text-left ">
   <h1 class="text-1xl font-bold">
-         <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="/project">Flash Game Collection </a>
+         <a class=" font-bold text-4xl link link-hover text-blue-400 hover:text-white" href="https://github.com/kkwl777?tab=repositories">Flash Game Collection </a>
        2016  </h1>   
         <p>Various flash game projects coded in Python,JS,Java etc. for learning purposes.   </p>
         <div class='flex flex-row gap-2 ' style={{  overflow:'auto'}}>
@@ -379,8 +377,20 @@ function App() {
 
   </div>
 
-  <figure><img src={game2} alt="Games"/></figure>
+  <figure><a href="https://github.com/kkwl777?tab=repositories" >    <img src={game2} alt="Games"/>     </a></figure>
 </div>
+
+
+<footer class="footer footer-center text-base-content ">
+  <div class="grid grid-flow-col gap-4 mb-5 mt-3">
+    <a class="link link-hover">likev77@gmail.com</a> 
+    <a href ="https://github.com/kkwl777" class="link link-hover ">Github.com/kkwl777</a> 
+
+  </div> 
+ 
+</footer>
+
+
       </div>
 {/* ///////////////// */}
 
