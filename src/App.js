@@ -386,10 +386,11 @@ function App() {
 <footer class="footer footer-center text-base-content ">
   <div class="grid grid-flow-col gap-4 mb-5 mt-3">
     <a class="link link-hover">likev77@gmail.com</a> 
-    <a href ="https://github.com/kkwl777" class="link link-hover ">Github.com/kkwl777</a> 
-<a href={cv1} download class="link link-hover ">
+    <a href={cv1} download class="link link-hover ">
   Resume
 </a>
+    <a href ="https://github.com/kkwl777" class="link link-hover ">Github.com/kkwl777</a> 
+
 
   </div> 
  
